@@ -6,7 +6,7 @@ $mainSection.id = "main-section";
 const mainSectionTemplate = `
 <div><img src="/public/assets/IMG_20221005_145041312.jpg" alt="Ragnar y yo"></div>
 <div class="description">
-<h2>Hey!</h2>
+<h2 class="pink">Hey!</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aperiam iste neque quibusdam ipsa possimus,
   voluptatum dolorum voluptate atque ullam tempore? Illo, iure asperiores. Architecto deserunt fuga officiis culpa
   incidunt.
