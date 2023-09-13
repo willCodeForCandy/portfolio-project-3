@@ -1,12 +1,11 @@
 @font-face {
   font-family: ShadowsIntoLight;
-  src: url(/public/assets/Shadows_Into_Light_Two/ShadowsIntoLightTwo-Regular.ttf)
+  src: url(/assets/Shadows_Into_Light_Two/ShadowsIntoLightTwo-Regular.ttf)
     format("truetype");
   font-family: Mali;
-  src: url(/public/assets/Mali/Mali-Bold.ttf) format("truetype");
+  src: url(/assets/Mali/Mali-Bold.ttf) format("truetype");
   font-family: Caveat;
-  src: url(/public/assets/Caveat/Caveat-VariableFont_wght.ttf)
-    format("truetype");
+  src: url(/assets/Caveat/Caveat-VariableFont_wght.ttf) format("truetype");
 }
 :root {
   --primary-light: #faf9f6;
@@ -34,7 +33,7 @@
 }
 
 body {
-  background-image: url(public/assets/dot-seamless-pattern.png);
+  background-image: url(/assets/dot-seamless-pattern.png);
   background-size: 200px;
   min-height: 100svh;
   width: 100%;
