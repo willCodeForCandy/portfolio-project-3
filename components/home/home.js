@@ -1,1 +1,1 @@
-console.log("esto viene de home");
+const $main = document.querySelector("main");

@@ -55,3 +55,24 @@ body.dark {
 body.dark a {
   color: var(--primary-light);
 }
+
+main {
+  display: flex;
+  padding: 0 5%;
+  align-items: center;
+  gap: 5%;
+  margin-top: 2rem;
+}
+
+main > div {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+  /* height: 300px; */
+  transform: rotate(-6deg);
+}
+
+main > div img {
+  max-width: 300px;
+  aspect-ratio: 1;
+}
