@@ -1,16 +1,18 @@
 import { $header } from "../navbar/navbar";
 import "./mode-toggler.css";
 
+const lightIcon = "/assets/icons8-sun-100.png";
+const darkIcon = "/assets/icons8-moon-and-stars-100.png";
 const togglerContainer = document.createElement("div");
 togglerContainer.id = "mode-toggler";
 
 togglerContainer.innerHTML = `
 <div class="flip-card-inner">
   <div id="mode-light">
-    <img src="/public/assets/icons8-sun-100.png" alt="light mode">
+    <img src="${lightIcon}" alt="light mode">
   </div>
   <div id="mode-dark">
-    <img src="/public/assets/icons8-moon-and-stars-100.png" alt="dark mode">
+    <img src="${darkIcon}" alt="dark mode">
   </div>
 </div>
 `;
