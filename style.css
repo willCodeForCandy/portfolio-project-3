@@ -2,11 +2,19 @@
   font-family: ShadowsIntoLight;
   src: url(/public/assets/Shadows_Into_Light_Two/ShadowsIntoLightTwo-Regular.ttf)
     format("truetype");
+  font-family: Mali;
+  src: url(/public/assets/Mali/Mali-Bold.ttf) format("truetype");
+  font-family: Caveat;
+  src: url(/public/assets/Caveat/Caveat-VariableFont_wght.ttf)
+    format("truetype");
 }
 :root {
   --background: #faf9f6;
   --text: #242424;
-  font-family: ShadowsIntoLight, Helvetica, Arial, sans-serif;
+  --highlighter-yellow: #fbff2b;
+  --highlighter-blue: #3cdfff;
+  --highlighter-pink: #fb62f3;
+  font-family: Caveat, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -26,10 +34,16 @@
 }
 
 body {
-  background-image: url(public/assets/dot-seamless-pattern.svg);
-  background-size: 30%;
+  background-image: url(public/assets/dot-seamless-pattern.png);
+  background-color: var(--background);
+  background-size: 200px;
   height: 100svh;
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
 }

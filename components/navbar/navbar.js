@@ -1,10 +1,12 @@
+import "./navbar.css";
+
 const $header = document.querySelector("header");
 
-const createNavbarTemplate = () => `
+$header.innerHTML = `
 <nav>
-    <a href="#">Home</a>
-    <a href="#">Projects</a>
-    <a href="#">Experience</a>
+    <a href="#" class="textmarker-effect yellow">Home</a>
+    <a href="#" class="textmarker-effect blue">Projects</a>
+    <a href="#" class="textmarker-effect pink">Experience</a>
 </nav>`;
 
 // Lee los comentarios de este código para entender lo que hace 🔴

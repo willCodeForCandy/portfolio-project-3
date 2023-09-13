@@ -1,0 +1,48 @@
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 1.5rem;
+  font-size: 25px;
+  background-color: transparent;
+}
+
+.textmarker-effect {
+  position: relative;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.textmarker-effect:after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  height: 70%;
+  left: 0;
+  bottom: 16%;
+  width: 0%;
+  opacity: 0.6;
+  transition: all 0.5s;
+  transform: skewY(355deg);
+}
+
+.yellow:after {
+  background: var(--highlighter-yellow);
+}
+
+.pink:after {
+  background: var(--highlighter-pink);
+}
+
+.blue:after {
+  background: var(--highlighter-blue);
+}
+
+.textmarker-effect:hover {
+  cursor: pointer;
+}
+
+.textmarker-effect:hover:after {
+  width: 100%;
+}
