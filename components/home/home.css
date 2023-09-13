@@ -1,0 +1,30 @@
+#main-section {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding: 0 5%;
+  align-items: center;
+  gap: 30px;
+  margin-top: 2rem;
+  font-size: 20px;
+}
+
+#main-section > div:first-child {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+  /* height: 300px; */
+  transform: rotate(-6deg);
+}
+
+#main-section > div img {
+  max-width: 300px;
+  aspect-ratio: 1;
+}
+
+.description {
+  flex: 1 0 250px;
+}
+
+.description p {
+  backdrop-filter: blur(5px);
+}
