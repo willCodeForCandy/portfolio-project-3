@@ -22,8 +22,8 @@ nav {
   left: 0;
   bottom: 16%;
   width: 0%;
-  opacity: 0.6;
-  transition: all 0.5s;
+  opacity: 0.4;
+  transition: 0.5s;
   transform: skewY(355deg);
 }
 

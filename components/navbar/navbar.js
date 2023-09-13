@@ -2,7 +2,7 @@ import "./navbar.css";
 
 const $header = document.querySelector("header");
 
-$header.innerHTML = `
+$header.innerHTML += `
 <nav>
     <a href="#" class="textmarker-effect yellow">Home</a>
     <a href="#" class="textmarker-effect blue">Projects</a>
