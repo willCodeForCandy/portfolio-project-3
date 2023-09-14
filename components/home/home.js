@@ -5,7 +5,7 @@ const profilePic = "/assets/IMG_20221005_145041312.jpg";
 const $mainSection = document.createElement("section");
 $mainSection.id = "main-section";
 const mainSectionTemplate = `
-<div><img src="${profilePic}" alt="Ragnar y yo"></div>
+<div class="polaroid"><img src="${profilePic}" alt="Ragnar y yo"></div>
 <div class="description">
 <h2 class="pink">Hey!</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aperiam iste neque quibusdam ipsa possimus,
