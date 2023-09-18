@@ -14,8 +14,12 @@ const createProjectTemplate = (project, color) => `
 <article class="project-container">
 <h2 class="project-name ${color}">${project.title}</h2>
 <div class="project-description">
-  <div class="polaroid project-image">
+  <div class="polaroid project-image-container">
     <img src="${project.screenshot}" alt="${project.imgDescription}">
+    <div class="overlay">
+        <a href="${project.liveUrl}">Ver live</a>
+        <a href="${project.gitHubUrl}" class="view-code"><img src="/assets/icons8-code-100.png">Ver código</a>
+    </div>
   </div>
   <div class="project-details">
   ${project.description}

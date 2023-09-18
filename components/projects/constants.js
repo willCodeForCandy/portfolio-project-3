@@ -6,7 +6,7 @@ export const myProjects = [
     screenshot: "/assets/clon-imdb.png",
     technologies: ["html", "css"],
     imgDescription: "Screenshot clon Imdb desktop",
-    gitHubUrl: "",
+    gitHubUrl: "https://github.com/willCodeForCandy/ejemplos-git-pmba",
     liveUrl: "https://clon-imdb.netlify.app/",
   },
   {
@@ -36,7 +36,7 @@ export const myProjects = [
     screenshot: "/assets/password-checker.png",
     technologies: ["html", "css", "js"],
     imgDescription: "Screenshot ejercicio password mobile",
-    gitHubUrl: "",
-    liveUrl: "",
+    gitHubUrl: "https://github.com/willCodeForCandy/bluring",
+    liveUrl: "https://buring-passcode.netlify.app/",
   },
 ];
