@@ -2,7 +2,7 @@ import "./home.css";
 
 export const $main = document.querySelector("main");
 const profilePic = "/assets/IMG_20221005_145041312.jpg";
-const $mainSection = document.createElement("section");
+export const $mainSection = document.createElement("section");
 $mainSection.id = "main-section";
 const mainSectionTemplate = `
 <div class="polaroid"><img src="${profilePic}" alt="Ragnar y yo"></div>

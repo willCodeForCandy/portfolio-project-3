@@ -28,6 +28,15 @@
   -webkit-text-size-adjust: 100%;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -78,4 +87,61 @@ body.dark a {
   padding: 10px;
   width: fit-content;
   box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.fade-out {
+  animation: fadeIn 1s ease-in reverse;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+.textmarker-effect {
+  position: relative;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.textmarker-effect:after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  height: 70%;
+  left: 0;
+  bottom: 16%;
+  width: 0%;
+  opacity: 0.4;
+  transition: 0.5s;
+  transform: skewY(355deg);
+}
+@keyframes slideIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.yellow:after {
+  background: var(--highlighter-yellow);
+}
+
+.pink:after {
+  background: var(--highlighter-pink);
+}
+
+.blue:after {
+  background: var(--highlighter-blue);
+}
+
+.slidein:after {
+  animation: slideIn 2s;
+}
+.textmarker-effect:hover {
+  cursor: pointer;
+}
+
+.textmarker-effect:hover:after {
+  width: 100%;
 }
